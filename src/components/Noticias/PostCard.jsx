@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../assets/css/componentes/card.css";
+import "../../assets/css/componentes/card.css";
 import PropTypes from "prop-types";
 
 export const PostCard = ({ id, title, metadescription, categoria }) => {

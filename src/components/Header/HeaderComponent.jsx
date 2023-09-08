@@ -1,5 +1,5 @@
-import image from "../assets/image/doguito.svg";
-import "../assets/css/componentes/header.css";
+import image from "../../assets/image/doguito.svg";
+import "../../assets/css/componentes/header.css";
 import { Link } from "react-router-dom";
 
 export const HeaderComponent = () => {

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { buscar } from "../api/api";
-import "../assets/css/componentes/card.css";
+import { buscar } from "../../api/api";
+import "../../assets/css/componentes/card.css";
 import PropTypes from "prop-types";
 import { PostCard } from "./";
 
