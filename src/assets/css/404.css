@@ -1,0 +1,25 @@
+.error-page {
+  height: 100vh;
+}
+
+.dog-image {
+  width: 100%;
+  max-width: 25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.notfound-text {
+  font-size: var(--font-size-not-found);
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.notfound-link {
+  color: var(--primary-color);
+}
+
+.title {
+  font-size: 5em;
+  font-weight: 800;
+}
