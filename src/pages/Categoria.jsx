@@ -9,6 +9,7 @@ import {
   useResolvedPath,
 } from "react-router-dom";
 import "../assets/css/blog.css";
+import { SubCategoria } from "./";
 
 export const Categoria = () => {
   const [subcategorias, setSubcategorias] = useState([]);
@@ -43,6 +44,7 @@ export const Categoria = () => {
 
       <Routes>
         <Route path="/" element={<ListPost url={`posts?categoria=${id}`} />} />
+        <Route path="/:subcategoria" element={<SubCategoria />} />
       </Routes>
     </>
   );
