@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
-import { Home, Page404, Sobre } from "../pages";
-import { HeaderComponent } from "../components/HeaderComponent";
+import { Home, Page404, Sobre, Post } from "../pages";
+import { HeaderComponent } from "../components";
 
 export const AppRouter = () => {
   return (
@@ -9,6 +9,7 @@ export const AppRouter = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="sobre" element={<Sobre />} />
+        <Route path="posts/:id" element={<Post />} />
 
         <Route path="*" element={<Page404 />} />
       </Routes>
