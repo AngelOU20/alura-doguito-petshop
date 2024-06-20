@@ -1,5 +1,5 @@
 .error-page {
-  height: 100vh;
+  height: 80vh;
 }
 
 .dog-image {
@@ -20,6 +20,6 @@
 }
 
 .title {
-  font-size: 5em;
+  font-size: 4em;
   font-weight: 800;
 }
